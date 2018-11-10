@@ -1,7 +1,5 @@
 # base image
 FROM alpine:3.7
-ENV http_proxy http://proxy-chain.xxx.com:911/
-ENV https_proxy http://proxy-chain.xxx.com:912/
 
 # Install python 3 and pip
 RUN apk add --update python3
